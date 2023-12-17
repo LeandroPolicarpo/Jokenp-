@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/favicon.ico">
+    <title> Jockenpô </title>
+</head>
+
+<body>
+
+
+    <h1 class="neon">JOKENPÔ</h1>
+
+    <div class="container">
+        <p class="names">VOCÊ MAQUINA</p>
+
+
+        <div class="score">
+            <span class="my-points">0</span>-</span><span class="your-points">0</span>
+        </div>
+
+        <img src="assets/pedra.png" alt="my-choice" class="my-choice">
+        <img src="assets/papel.png" alt="your-choice" class="your-choice">
+
+    </div>
+
+    <p class="result"></p>
+
+    <p class="CHOICE">ESCOLHA A OPÇÃO</p>
+
+    <div class="buttons">
+
+        <input type="image" src="assets/pedra.png" class="rock" onclick="userChoice('pedra')"></input>
+        <input type="image" src="assets/papel.png" class="paper" onclick="userChoice('papel')"></input>
+        <input type="image" src="assets/tesoura.png" class="scissors" onclick="userChoice('tesoura')"></input>
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
